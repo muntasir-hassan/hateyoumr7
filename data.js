@@ -71,6 +71,6 @@ export const data = [
   {
     src: "./videos/reel15.mp4",
     title:
-      "I hate you 😇, (Please ignore any inappropriate visuals).",
+      "I hate you 😇, It was my fav movie Taqdeer/hello. (Please ignore any inappropriate visuals)",
   },
 ];
