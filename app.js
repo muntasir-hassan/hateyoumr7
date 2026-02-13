@@ -52,7 +52,7 @@ const setupSingleVideoPlay = () => {
 
 const check = () => {
   if (isShe === true) {
-    document.title = "Love Letter";
+    document.title = "Hate Letter";
     document
       .getElementById("favicon")
       .setAttribute("href", "./picture/withered.png");
@@ -60,7 +60,7 @@ const check = () => {
     content.innerHTML = `
 <main class="max-w-6xl mx-auto px-4 md:px-8 py-10">
   <header class="mb-6">
-    <h1 class="text-4xl font-bold text-red-600">Welcome & i hate u 🥰</h1>
+    <h1 class="text-4xl font-bold text-red-600">His Pov 🧑‍💻</h1>
     <p class="text-gray-500 mt-2">Blessed Love Story</p>
   </header>
 
