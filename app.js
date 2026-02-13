@@ -2,39 +2,7 @@ let isShe = true;
 const content = document.getElementById("content");
 import { data } from "./data.js";
 
-function updateIsShe({ cName, ip }) {
-  if (cName == "GB") {
-    isShe = true;
-    check();
-    showmsg(ip);
-  } else {
-    isShe = false;
-    check();
-  }
-}
 
-const showmsg = (ip) => {
-  Swal.fire({
-    title: "Thanks!",
-    text: `Thanks for sharing your ip(${ip}), we hack to protect not to harm🥀`,
-    icon: "success",
-    confirmButtonText: "Got it!",
-  });
-};
-
-const fetchData = async () => {
-  try {
-    const res = await fetch(`https://ipinfo.io/json?token=5825313c69ac1d`);
-    const info = await res.json();
-    const cName = info.country;
-    const ip = info.ip;
-    updateIsShe({ cName, ip });
-  } catch (error) {
-    console.error("Error fetching IP data:", error);
-  }
-};
-
-fetchData();
 
 const setupSingleVideoPlay = () => {
   const videos = document.querySelectorAll("video");
