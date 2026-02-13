@@ -1,0 +1,9 @@
+{
+  "name": "foryouosl",
+  "scripts": {
+   
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
