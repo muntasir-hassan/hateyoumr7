@@ -58,5 +58,14 @@ export const data = [
     src: "./videos/reel12.mp4",
     title:
       "I’m grateful you gave me this much space in your heart 🤍✨ It means more than you’ll ever know 🥹",
+  },  {
+    src: "./videos/reel13.mp4",
+    title:
+      "Unpossible 😅",
+  },
+  {
+    src: "./videos/reel14.mp4",
+    title:
+      "I hope I always keep you as my priority — not just in words, but in actions, in choices, in every little decision I make 🤍🌹 You’ve never been an option… you’ve always been the intention 💫",
   },
 ];
