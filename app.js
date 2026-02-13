@@ -60,7 +60,7 @@ const check = () => {
     content.innerHTML = `
 <main class="max-w-6xl mx-auto px-4 md:px-8 py-10">
   <header class="mb-6">
-    <h1 class="text-4xl font-bold text-red-600">His Pov 🧑‍💻</h1>
+    <h1 class="text-4xl font-bold text-blue-600">His Pov 🧑‍💻</h1>
     <p class="text-gray-500 mt-2">Blessed Love Story</p>
   </header>
 
